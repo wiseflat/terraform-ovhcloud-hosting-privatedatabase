@@ -13,7 +13,6 @@ data "ovh_order_cart_product_plan" "database" {
 resource "ovh_hosting_privatedatabase" "instance" {
   ovh_subsidiary = data.ovh_order_cart.database.ovh_subsidiary
   display_name   = var.name
-  payment_mean   = var.payment_mean
 
   plan {
     duration     = data.ovh_order_cart_product_plan.database.prices[3].duration

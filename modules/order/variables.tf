@@ -32,12 +32,6 @@ variable "tech_account" {
   type        = string
 }
 
-variable "payment_mean" {
-  description = "Payment mean"
-  type        = string
-  default     = "ovh-account"
-}
-
 variable "plan_code" {
   description = "Plan code"
   type        = string
