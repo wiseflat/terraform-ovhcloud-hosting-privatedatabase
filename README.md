@@ -22,7 +22,7 @@ Read the Terraform registry [documentation](https://registry.terraform.io/provid
 
 - [terraform](https://www.terraform.io/downloads) binary
 - An [OVHCloud](https://www.ovhcloud.com/) account
-- A private [APIv6](https://www.ovh.com/auth/createToken/?GET=/order/*&PUT=/order/*&POST=/order/*&DELETE=/order/*&GET=/me/order/*&PUT=/me/order/*&POST=/me/order/*&DELETE=/me/order/*&GET=/me/notification/email/history/&GET=/me/notification/email/history&GET=/hosting/privateDatabase/*&POST=/hosting/privateDatabase/*&PUT=/hosting/privateDatabase/*&DELETE=/hosting/privateDatabase/*) tokens
+- A private [APIv6](https://www.ovh.com/auth/createToken/?GET=/order/*&PUT=/order/*&POST=/order/*&DELETE=/order/*&GET=/me/payment/*&PUT=/me/payment/*&POST=/me/payment/*&DELETE=/me/payment/*&GET=/me/order/*&PUT=/me/order/*&POST=/me/order/*&DELETE=/me/order/*&GET=/me/notification/email/*&GET=/hosting/privateDatabase/*&POST=/hosting/privateDatabase/*&PUT=/hosting/privateDatabase/*&DELETE=/hosting/privateDatabase/*) tokens
 
 - A billing account (or your admin account). This account has rights to order privateSQL instances.
 - A technical account. This one will be able to manage your privateSQL and will not be able to terminate your service.
